@@ -121,7 +121,7 @@ class Empresa extends Model
         $data=MovPerfilEmpresa::relacionPerfilEmpresa($idPerfil);
         $dat=array();
         $sw=0;
-        //Recorre Aray
+        //Recorre Aray $data
         foreach ($data as $key){
             if($sw==0){
                 array_push($dat,array(
